@@ -33,11 +33,11 @@ body::before {
 }
 
 a {
-  color: #12d640;
+  color: #33CCCC;
 }
 
 a:hover {
-  color: #35e888;
+  color: #33CCCC;
   text-decoration: none;
 }
 
@@ -55,6 +55,16 @@ img {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image {
+    width: calc(33.33% - 10px); /* 10px是图片之间的间距 */
+    margin: 5px;
 }
 
 .background-image {
@@ -107,7 +117,7 @@ svg {
 #header h2 {
   font-size: 24px;
   margin-top: 20px;
-  color: #12d640;
+  color: #33CCCC;
 }
 
 #header h2 span {
@@ -141,7 +151,7 @@ svg {
 }
 
 #header .social-links a:hover {
-  background: #12d640;
+  background: #33CCCC;
 }
 
 @media (max-width: 992px) {
@@ -197,7 +207,7 @@ svg {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: #9e7f25;
+  background-color: #33CCCC;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -206,10 +216,11 @@ svg {
 .nav-menu a:hover:before, .nav-menu li:hover > a:before, .nav-menu .active > a:before {
   visibility: visible;
   width: 25px;
+  background-color: #33CCCC
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #12d640;
+  color: #33CCCC;
   text-decoration: none;
 }
 
@@ -266,8 +277,8 @@ svg {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #12d640;
-  text-decoration: none;
+  color: #33CCCC;
+  text-decoration: active;
 }
 
 .mobile-nav-overly {
@@ -1073,7 +1084,7 @@ section .container {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #12d640;
+  background: #33CCCC;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1082,7 +1093,7 @@ section .container {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #12d640;
+  background: #33CCCC;
 }
 
 @-webkit-keyframes animate-loading {
